@@ -105,7 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="contenuto">Contenuto</label>
                 <textarea class="form-control" id="contenuto" name="contenuto" rows="5"><?php echo $article['contenuto']; ?></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Salva Modifiche</button>
+            <button type="submit" class="btn btn-primary mt-3">Salva Modifiche</button>
         </form>
         <?php
 
